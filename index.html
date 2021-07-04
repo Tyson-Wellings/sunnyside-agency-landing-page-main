@@ -5,35 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
 </head>
 <body>
   <header>
-    <img id="logo" alt="Sunnyside Company Logo"src="images/logo.svg">
-    <nav>
-      <a class="links">Home</a>
-      <a class="links">News</a>
-      <a class="links">Contact</a>
-      <a class="links">About</a>
-    </nav>
-    <img id="hamburger" alt="hamburger icon, click for menu" src="images/icon-hamburger.svg">
-  </header>
-  <main>
+    <div id="header-links">
+      <img class="logo" alt="Sunnyside Company Logo"src="images/logo.svg">
+      <img id="hamburger" alt="hamburger icon, click for menu" src="images/icon-hamburger.svg">
+      <nav>
+        <a class="links">Home</a>
+        <a class="links">News</a>
+        <a class="links">Contact</a>
+        <a class="links">About</a>
+      </nav>
+    </div>
+    
     <div id="extended-header">
       <h1>We are creatives</h1>
       <div id="header-image-wrapper">
         <img id="arrow" src="images/icon-arrow-down.svg">
         <img srcset="images/mobile/image-header.jpg 750w,
           images/desktop/image-header.jpg 2880w"
-          sizes ="(max-width: 375px) 750px, 1440px"
+          sizes ="(max-width: 376px) 750px, 1440px"
           src="images/mobile/image-header.jpg"
           alt="vibrant picture of an orange"
-
-      id="header-image" alt="" src="images/mobile/image-header.jpg" >
+          class="background-image"
+         alt="" src="images/mobile/image-header.jpg" >
       </div>
     </div>
+  </header>
+  <main>
     <img srcset="images/mobile/image-transform.jpg 750w,
       images/desktop/image-trasform.jpg 720w"
       sizes="(max-width: 375px) 750px, 720px"
@@ -129,32 +135,50 @@
           Business Owner
         </p>
       </div>
-    
     </div>
-  
-    
-    
-  
-    
-  
 
-  
-    
-    
-    
-  
-    
-    
-    
-  
-    About
-    Services
-    Projects
-    Contact
+    <div id="image-gallery">
+
+      <img srcset="images/mobile/image-gallery-milkbottles.jpg 376w,
+      images/desktop/image-gallery-milkbottles.jpg 720w"
+      sizes="(max-width: 375px) 376px, 720px"
+      src="images/mobile/image-gallery-milkbottles.jpg"
+      alt="" class="image-gallery-image">
+
+      <img srcset="images/mobile/image-gallery-orange.jpg 376w,
+      images/desktop/image-gallery-orange.jpg 720w"
+      sizes="(max-width: 375px) 376px, 720px"
+      src="images/mobile/image-gallery-orange.jpg"
+      alt="" class="image-gallery-image">
+
+      <img srcset="images/mobile/image-gallery-cone.jpg 376w,
+      images/desktop/image-gallery-cone.jpg 720w"
+      sizes="(max-width: 375px) 376px, 720px"
+      src="images/mobile/image-gallery-cone.jpg"
+      alt="" class="image-gallery-image">
+
+      <img srcset="images/mobile/image-gallery-sugarcubes.jpg 376w,
+      images/desktop/image-gallery-sugarcubes.jpg 720w"
+      sizes="(max-width: 375px) 376px, 720px"
+      src="images/mobile/image-gallery-sugarcubes.jpg"
+      alt="" class="image-gallery-image">
+
+    </div>
   </main>
-  
-
- 
+  <footer>
+    <img class="logo" alt="Sunnyside Company Logo"src="images/logo.svg">
+    <div id="footer-links-container">
+      <a class="links">About</a>
+      <a class="links">Services</a>
+      <a class="links">Projects</a>
+    </div>
+    <div id="contact-links-container">
+      <img class="icons" alt="facebook" src="images/icon-facebook.svg">
+      <img class="icons" alt="facebook" src="images/icon-instagram.svg">
+      <img class="icons" alt="facebook" src="images/icon-twitter.svg">
+      <img class="icons" alt="facebook" src="images/icon-pinterest.svg">
+    </div>
+  </footer>
 
 </body>
 </html>
