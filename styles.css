@@ -134,7 +134,7 @@ nav .links{
 
 }
 
-nav .links#contact{
+nav .links.contact{
     background-color: var(--Yellow);
     padding: 16px 9px;
     display: inline-block;
@@ -293,8 +293,8 @@ nav .links#contact{
 #image-gallery{
     width: 100%;
     display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows:50vw 50vw;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:50% 50%;
     grid-template-areas:
     "image1 image2"
     "image3 image4" ;
@@ -412,12 +412,12 @@ footer .logo{
         
     }
 
-    #desktop-nav .links#contact{
+    #desktop-nav .links.contact{
         background-color: white;
         margin: 0;
     }
 
-    #desktop-nav .links#contact:hover{
+    #desktop-nav .links.contact:hover{
         background-color: rgba(255, 255, 255, 0.425);
         color: white;
     }
@@ -474,7 +474,7 @@ footer .logo{
 
     main{
         display: grid;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: repeat(5, auto); 
         grid-template-areas: 
             "transform transform-photo"
