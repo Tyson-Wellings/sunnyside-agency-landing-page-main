@@ -465,6 +465,7 @@ footer .logo{
 
     #testimonials{
         grid-area: testimonials;
+        padding: 200px 0;
     }
 
     #image-gallery{
@@ -538,10 +539,6 @@ footer .logo{
 
     .sales-text-over-background p{
         width: 400px;
-    }
-
-    #testimonials{
-        padding: 150px 0;
     }
 
     #testimonial-container{
