@@ -415,6 +415,7 @@ footer .logo{
     #desktop-nav .links.contact{
         background-color: white;
         margin: 0;
+        color: black
     }
 
     #desktop-nav .links.contact:hover{
@@ -439,7 +440,7 @@ footer .logo{
     }
 
     .half-size-images{
-        width: 50vw;
+        width: 50%;
     }
 
     #transform{
@@ -496,7 +497,7 @@ footer .logo{
     }
 
     .sales-explainer-text-container{
-        width: 50vw;
+        width: 50%;
     }
 
     .sales-explainer-text-container{
