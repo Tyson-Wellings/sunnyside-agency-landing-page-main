@@ -367,6 +367,19 @@ footer .logo{
     }
 }
 
+@media only screen and (min-width: 650px){
+    #extended-header{
+        left: 50%;
+        margin-left: -277.7px;
+    }
+    
+    #extended-header h1{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (min-width: 1000px){
     .mobile{
         display: none;
@@ -416,6 +429,9 @@ footer .logo{
     #extended-header{
         width: 100%;
         margin-top: -150.2px;
+        left: 0;
+        margin-left: 0;
+
     }
 
     .half-size-images.transform{
@@ -510,7 +526,7 @@ footer .logo{
         justify-content: center;
         flex-direction: column;
         padding: 0;
-        bottom: 100px;
+        bottom: 50px;
         align-items: center;
         
     }
@@ -569,6 +585,14 @@ footer .logo{
 
 
    
+}
+
+@media only screen and (min-width: 1250px){
+    .sales-text-over-background{
+        bottom: 100px;
+        
+        
+    }
 }
 
 
